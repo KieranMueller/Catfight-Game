@@ -1,0 +1,52 @@
+html{
+    background-color: rgb(85, 47, 103);
+}
+.card{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatar{
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px black;
+}
+.top-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+.stats-div{
+display: flex;
+
+}
+.statbar{
+    display: flex;
+    width:100%;
+    font-size: 16px;
+}
+li{
+    list-style: none;
+}
+.desc-div{
+    border-top: 1px solid gray;
+    margin-top: 20px;
+}
+.test-div{
+    display: flex;
+    justify-content: center;
+}
+.test{
+ height:40px;
+ width:200px;
+ margin-bottom: 10px;
+}
+.health-div{
+    
+}
+.diceResults{
+    width:120px;
+}

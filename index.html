@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catfight</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div>
+      <div class="card">
+        <div>
+          <h1 class="health"></h1>
+        </div>
+        <div class="top-div">
+          <img class="avatar" src="jasperFight.png" />
+        </div>
+        <div class="health-div">
+          <h2 class="diceResults"></h2>
+        </div>
+        <div class="stats-div">
+          <h3 class="statbar">
+            Species: Feline
+            <li>Main Atck: Bite</li>
+            <li>Alt Atck: Scratch</li>
+            <li>Powerup: Purr (hover to see desc)</li>
+          </h3>
+        </div>
+        <div class="desc-div">
+          <p>
+            This young fighter came from humble beginnings. Growing into his
+            muscular body, he has triumphed many a foe. Continue fighting to
+            unlock more powers and abilities...
+          </p>
+          <div class="test-div">
+            <button class="test" onclick="myAttack()">Attack!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <div>
+          <h1 class="enemyHealth"></h1>
+        </div>
+        <div class="top-div">
+          <img class="avatar" src="mouse.jpg" />
+        </div>
+        <div class="enemyHealth-div">
+          <h2 class="enemyDiceResults"></h2>
+        </div>
+        <div class="stats-div">
+          <h3 class="statbar">
+            Species: Feline
+            <li>Main Atck: Bite</li>
+            <li>Alt Atck: Scratch</li>
+            <li>Powerup: Purr (hover to see desc)</li>
+          </h3>
+        </div>
+        <div class="desc-div">
+          <p>
+            A seemingly worthless opponent. The strength of a mouse is nothing
+            to that of a Feline. This contender may want to consider surrender.
+          </p>
+          <div class="test-div"></div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
